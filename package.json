@@ -1,0 +1,21 @@
+{
+  "name": "metricsuggestionsApi",
+  "version": "1.0.0",
+  "description": "Api which gives metrics for last hour",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "body-parser": "~1.9.2",
+    "express": "~4.9.8",
+    "morgan": "~1.5.0",
+    "nodemon": "latest",
+    "cors": "latest",
+    "lodash": "latest"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": "6.11.0",
+    "npm": "3.10.10"
+  }
+}
